@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
     "url": "https://github.com/cnnrbrn/environment/issues"
   },
   "homepage": "https://github.com/cnnrbrn/environment#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
   "dependencies": {
-    "one-liner-joke": "^1.2.2"
+    "give-me-a-joke": "^0.5.1"
   }
 }
